@@ -143,7 +143,6 @@ class Tables extends React.Component {
                     <table>
                         <tr>
                             <th>Points</th>
-                            <th>Goals Delta</th>
                             <th>Name</th>
                         </tr>
                         {
@@ -154,9 +153,6 @@ class Tables extends React.Component {
                                 }}>
                                         <td>
                                             {team.points}
-                                        </td>
-                                        <td>
-                                            {team.goalsDelta}
                                         </td>
                                         <td>
                                             {team.name}
